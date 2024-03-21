@@ -6,7 +6,7 @@ using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Actuators;
 
 
-public class MoveToFoodAgent : Agent
+public class Ant : Agent
 {
 	[SerializeField] private bool isTraining;
 	[SerializeField] private float movementSpeed;
